@@ -453,7 +453,7 @@ class BaseEnv(GridObjects, RandomObject, ABC):
         self._backend_action = None
 
         # specific to Basic Env, do not change
-        self.backend :Backend = None
+        self.backend: Backend = None
         self.__is_init = False
         self.debug_dispatch = False
 
